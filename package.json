@@ -1,0 +1,25 @@
+{
+  "name": "nano-fetch",
+  "description": "Couchdb client that uses global fetch",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --reporter=verbose",
+    "build": "NODE_ENV=production vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/nano-fetch.git"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (https://konsumer.js.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/nano-fetch/issues"
+  },
+  "homepage": "https://github.com/konsumer/nano-fetch#readme",
+  "devDependencies": {
+    "vite": "^3.2.2",
+    "vitest": "^0.24.4"
+  }
+}
